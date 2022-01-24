@@ -1,8 +1,12 @@
+body {
+    padding: 70px;
+}
+
 .section-primary{
-    background-color:#b6bec4;
-    padding: 1cm 1cm 1cm 1cm;
+    background-color:#d1d8e0;
+    padding: 1cm;
 }
 .section-secondary{
-    background-color:#d2dae2;
-    padding: 1cm 1cm 1cm 1cm;
+    background-color:#a5b1c2;
+    padding: 1cm;
 }

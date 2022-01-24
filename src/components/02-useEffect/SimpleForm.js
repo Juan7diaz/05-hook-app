@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Mesagge from './Mesagge';
 
-import './effects.css'
-
 const SimpleForm = () => {
 
     const [formState, setFormState] = useState({

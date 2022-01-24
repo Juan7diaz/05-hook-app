@@ -2,8 +2,6 @@ import React     from 'react'
 import { useCounter } from '../../hooks/useCounter'
 import { useFetch } from '../../hooks/useFetch'
 
-import '../02-useEffect/effects.css'
-
 const MultipleCustomHook = () => {
 
     const { counter, increment, reset } = useCounter( 1 )
