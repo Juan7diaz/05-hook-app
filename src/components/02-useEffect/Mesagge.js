@@ -8,7 +8,7 @@ const Mesagge = ({ persona }) => {
         y:0
     })
 
-    useEffect(() => {  
+    useEffect(() => {
 
         const mouseMove = (e) =>{
             setCoords({

@@ -6,7 +6,7 @@ const CounterApp = () => {
         counter1 : 10,
         counter2: 20
     })
-    
+
     const {counter1, counter2 } = counter;
     console.log( counter )
 
@@ -21,11 +21,11 @@ const CounterApp = () => {
         <div  className="section-primary">
             <h1>counter1: { counter1 }</h1>
             <h1>counter2: { counter2 }</h1>
-           
-            <button 
+
+            <button
                 className = 'btn btn-primary'
                 onClick = { increment }
-            > 
+            >
             +1 Solo primer contador
             </button>
             <hr/>

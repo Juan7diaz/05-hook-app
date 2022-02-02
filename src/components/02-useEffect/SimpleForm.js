@@ -32,10 +32,10 @@ const SimpleForm = () => {
 
     return (
         <div  className="section-primary">
-            <h1>SimpleForm with useEffect</h1> 
+            <h1>SimpleForm with useEffect</h1>
 
             <div className="form-group">
-                <input 
+                <input
                     type ='text'
                     name = 'name'
                     className = "form-control"
@@ -47,7 +47,7 @@ const SimpleForm = () => {
             </div>
 
             <div className="form-group">
-                <input 
+                <input
                     type ='text'
                     name = 'email'
                     className = "form-control"

@@ -17,14 +17,14 @@ const FormWithCustomHook = () => {
 
     const handleSubmit = ( e ) =>{
         e.preventDefault();
-        (!email || !name || !password)  
-        ? console.error("Falta un dato en el campo") 
+        (!email || !name || !password)
+        ? console.error("Falta un dato en el campo")
         : console.log( values )
     }
 
     return (
         <form onSubmit={ handleSubmit }  className="section-secondary">
-            <h1>FormWithCustomHook</h1> 
+            <h1>FormWithCustomHook</h1>
 
             <div className="form-group">
                 <input 
@@ -39,7 +39,7 @@ const FormWithCustomHook = () => {
             </div>
 
             <div className="form-group">
-                <input 
+                <input
                     type ='text'
                     name = 'email'
                     className = "form-control"
@@ -52,7 +52,7 @@ const FormWithCustomHook = () => {
             </div>
 
             <div className="form-group">
-                <input 
+                <input
                     type ='password'
                     name = 'password'
                     className = "form-control"
@@ -63,14 +63,14 @@ const FormWithCustomHook = () => {
                 />
             </div>
 
-            <button 
-                className='btn btn-primary' 
+            <button
+                className='btn btn-primary'
                 style={{marginTop: '10px'}}
                 type='submit'
             >
                 Enviar
             </button>
-            
+
             <hr/>
         </form>
     )

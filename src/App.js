@@ -8,8 +8,11 @@ import FocusScreen from './components/04-useRef/FocusScreen'
 import RealExampleRef from './components/04-useRef/RealExampleRef'
 import Laylout from './components/05-useLayoutEffect/Layout'
 import Memorize from './components/06-memo/Memorize'
+import MemoHook from './components/06-memo/MemoHook'
+import CallbackHook from './components/06-memo/CallbackHook'
 
 import './style/style.css'
+import { Padre } from './components/07-tarea-memo/Padre'
 
 const App = () => {
     return (
@@ -24,6 +27,9 @@ const App = () => {
             <RealExampleRef />
             <Laylout />
             <Memorize />
+            <MemoHook />
+            <CallbackHook />
+            <Padre />
         </div>
     )
 }
